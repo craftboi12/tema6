@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-.header_links {
+.header {
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header_container--links_link {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -9,9 +16,11 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: #212121;
+
 }
 
-.header_links_second {
+.header_container--links_second {
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -45,7 +54,13 @@
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: #757575;
+}
 
+.links_buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .links_buttons--higlightet {
@@ -72,3 +87,20 @@
     text-decoration-skip-ink: none;
 }
 
+.footer_contacts {
+    background-color: #2F303A;
+
+}
+
+.card_container {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card_container--foto {
+
+}
