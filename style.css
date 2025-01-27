@@ -109,6 +109,16 @@
     justify-content: space-around;
 }
 
+.footer_contacts--white {
+    color: #FFFFFF;
+
+}
+
+.footer_contacts--grey {
+    color: #FFFFFF99;
+
+}
+
 .card_container--foto {
 
 }
